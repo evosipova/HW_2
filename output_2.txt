@@ -1,0 +1,2 @@
+letters: 30004 
+numbers: 1800
