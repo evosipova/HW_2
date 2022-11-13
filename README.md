@@ -161,6 +161,21 @@ int main() {
 <br>![img_1.png](img_1.png)</br>
 <br>![img_2.png](img_2.png)</br>
 
+Реализована проверка ввода:
+
+```
+if (argc != 3){
+	  printf("incorrect input!\n");
+	  return 0;
+  }
+  FILE *input = fopen(argv[1], "r");
+  FILE *out = fopen(argv[2], "w");
+  if ((out == NULL) || (input == NULL)){
+	  printf("wrong file!\n");
+	  return 0;
+  }
+```
+
 
 Тесты на больших числах.
 
