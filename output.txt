@@ -1,0 +1,2 @@
+letters: 12 
+numbers 9
